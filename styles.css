@@ -2,7 +2,18 @@ body{
     font-family: 'Montserrat';
 }
 #title{
-    background-color: #ff4c68 ;
+    background-color: #ff4c68 ;@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
     height: 83%;
     position: relative;
     z-index: 0;
@@ -143,3 +154,16 @@ margin: auto ;
 .copyright-p{
     margin-top: 20px;
 }
+
+@media (max-width: 1028px) {
+
+    #title {
+      text-align: center;
+    }
+  
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+  }
+  
